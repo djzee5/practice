@@ -1,0 +1,16 @@
+<div class="grid">
+<p> This is my html file</p>
+
+<p> This is just an example </p>
+
+<p> now your turn </p>
+
+</div>
+
+
+
+
+/* css style rule */
+.grid {
+display: grid;
+}
