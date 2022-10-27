@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#box {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#box div {
+  width: 100px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+<h1>Flex-flow Example</h1>
+<div id="box">
+  <div style="background-color:red;">A</div>
+  <div style="background-color:orange;">B</div>
+  <div style="background-color:yellow;">C</div>
+  <div style="background-color:green;">D</div>
+  <div style="background-color:blue;">E</div>
+  <div style="background-color:indigo;">F</div>
+  <div style="background-color:violet;">G</div>
+</div>
+</body>
+</html>
+
+
+/* Try changing the flex-flow property to the following:
+
+row-reverse wrap
+row
+row wrap */
